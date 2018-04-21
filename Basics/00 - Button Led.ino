@@ -1,7 +1,6 @@
 #include<ESP8266WiFi.h>
+// Variables
 int Button = 0;
-int ButtonData;
-
 int Led = 2;
 
 void setup(){
