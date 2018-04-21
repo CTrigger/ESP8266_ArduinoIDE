@@ -6,9 +6,6 @@ int Button = 0;
 int Led = 2;
 
 void setup(){
-  //for debug  issues
-  Serial.begin(9600);
-  
   //pin Setups
   pinMode(Led,OUTPUT);
   pinMode(Button,INPUT);
