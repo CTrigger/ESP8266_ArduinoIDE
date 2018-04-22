@@ -12,12 +12,10 @@ void setup() {
 void loop() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-
-  Serial.print("Umidade: ");
-  Serial.print(h);
-  Serial.print("%\t");
-  Serial.print("Temperatura: ");
-  Serial.print(t);
-  Serial.print("°C  \n");
-  delay(3 * 1000);
+  String data = "";
+  data += "Humidity: " + String(h) + "%\r\n";
+  data += "Temperature: " + String(t) + "°C\r\n";
+  Serial.println(data);
+  
+  delay(3 * 1000);//3 seconds wait
 }
