@@ -70,6 +70,6 @@ void loop() {
   Serial.println("Sending Data: \r\n" + DATA);
   client.println(DATA);
   Serial.println("Data Sent");
-  delay(30*1000)
+  delay(30 * 1000);
   delay(50);
 }
