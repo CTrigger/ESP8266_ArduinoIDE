@@ -66,7 +66,7 @@ void loop() {
   Page += "<head>";
   Page +=   "<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'/>";
   Page +=   "<title>ESP8266 Web Server</title>";
-  Page +=   "<link rel='icon' href='https://cdn.metroui.org.ua/favicon.ico' type='image/x-icon'>";
+  Page +=   "<link rel='icon' href='https://metroui.org.ua/favicon.ico' type='image/x-icon'>";
   Page +=   "<link rel='stylesheet' href='https://cdn.metroui.org.ua/v4/css/metro-all.min.css'>";
   Page +=   "<link rel='stylesheet' href='https://cdn.metroui.org.ua/v4/css/schemes/darcula.css'>";
   Page += "</head>";
