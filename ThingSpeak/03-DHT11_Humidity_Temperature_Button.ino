@@ -65,11 +65,11 @@ void loop() {
       String field2 = "&field2=" + String(temperature);
       
       DATA = "";
-      DATA += "POST " + String(path) + " HTTP/1.1\r\n" +
-      DATA += "Host: " + String(host) + "\r\n" +
-      DATA += "Connection: close\r\n" +
-      DATA += "X-THINGSPEAKAPIKEY:" + ApiKey + "\r\n" +
-      DATA += "Content-Type: application/x-www-form-urlencoded\r\n" + 
+      DATA += "POST " + String(path) + " HTTP/1.1\r\n";
+      DATA += "Host: " + String(host) + "\r\n";
+      DATA += "Connection: close\r\n";
+      DATA += "X-THINGSPEAKAPIKEY:" + ApiKey + "\r\n";
+      DATA += "Content-Type: application/x-www-form-urlencoded\r\n";
       DATA += "Content-Length: " + String((field1+field2).length())+ "\r\n";
       DATA += "\r\n";
       DATA += field1 + field2;
